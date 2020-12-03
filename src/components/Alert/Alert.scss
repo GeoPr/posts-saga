@@ -1,0 +1,13 @@
+.alert {
+	// .alert__body
+	&__body {
+		padding: 20px;
+		border-radius: 10px;
+		background: rgb(150, 0, 0);
+	}
+	// .alert__text
+	&__text {
+		color: #fff;
+		font-size: 2rem;
+	}
+}

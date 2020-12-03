@@ -1,0 +1,35 @@
+.page {
+  // .page__sc
+  &__sc {
+		min-height: 100vh;
+		padding: 100px 0px;
+  }
+}
+.sc {
+  // .sc__container
+  &__container {
+  }
+  // .sc__body
+  &__body {
+		display: grid;
+		row-gap: 50px;
+  }
+  // .sc__posts
+  &__posts {
+		display: grid;
+		grid-template: auto / repeat(2, 1fr);
+		column-gap: 50px;
+  }
+}
+
+.posts {
+  display: grid;
+  place-content: start;
+  place-items: start;
+  row-gap: 10px;
+  li {
+    padding: 10px;
+    border-radius: 10px;
+    background: #eee;
+  }
+}
